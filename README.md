@@ -23,3 +23,24 @@ Epochs : epochs shows the number of times the model is trained to learn from the
 Weights and bias : weights and bias are assigned to the inputs in order to give importance to certain values,bias b1 and b2 both are initialised as 1.
 
 Cost function : The cost function is the technique of evaluating “the performance of our algorithm/model”. It takes both predicted outputs by the model and actual outputs and calculates how much wrong the model was in its prediction.here root mean square error is used as cost function.
+
+Evaluation metrics : classification report is the evaluation metrics which gives the values of train and test performance of the model.
+Training:   precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       565
+           1       0.45      1.00      0.62       464
+
+    accuracy                           0.45      1029
+   macro avg       0.23      0.50      0.31      1029
+weighted avg       0.20      0.45      0.28      1029
+
+testing : precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       197
+           1       0.43      1.00      0.60       146
+
+    accuracy                           0.43       343
+   macro avg       0.21      0.50      0.30       343
+weighted avg       0.18      0.43      0.25       343
+
+
