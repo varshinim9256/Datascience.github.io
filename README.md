@@ -20,4 +20,6 @@ Activation function : The Activation function plays  a crucial role in NN. The s
 
 Epochs : epochs shows the number of times the model is trained to learn from the data, more the number of epochs better the model learns
 
-Weights and bias : weights and bias are assigned to the inputs in order to give importance to certain values,bias b1 and b2 both are initialised as 1
+Weights and bias : weights and bias are assigned to the inputs in order to give importance to certain values,bias b1 and b2 both are initialised as 1.
+
+Cost function : The cost function is the technique of evaluating “the performance of our algorithm/model”. It takes both predicted outputs by the model and actual outputs and calculates how much wrong the model was in its prediction.here root mean square error is used as cost function.
